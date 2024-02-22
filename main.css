@@ -1,0 +1,257 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+header{
+    position: relative;
+    display: block;
+    margin: 20px;
+}
+
+
+
+.nav-container{
+    border-bottom: 1px solid #EAEDEF;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+.nav-container {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}
+
+@media (min-width: 768px){
+.nav {
+    padding: 0 40px;
+}
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    padding: 10px 40px;
+}
+
+.main-rogo{
+    font-size: 30px;
+    padding: 4px;
+    margin: 0 20px 0 0 ;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-rogo a{
+    color: black;
+
+}
+
+.categori{
+    display: flex;
+    align-items: center;
+}
+
+.categori-box{
+    padding: 21px 5px 15px 5px;
+    margin: 0 10px;
+    font-family: 'Pretendard Variable',sans-serif;
+
+}
+
+.categori-link{
+    padding: 4px;
+    margin: -4px ;
+}
+
+.categori-link a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.login-container{
+   width: 900px;
+   margin: 8px 0 0 0;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+.pic{
+    padding: 6px 10px;
+    margin: 9px 1px;
+}
+
+.real-log{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 8px;
+}
+
+.reeeal-log{
+    margin: 0 10px;
+}
+
+.reeeal-log a{
+    padding: 0 10px;
+ 
+}
+
+.log{
+    border-right: 1px solid lightgray;
+}
+
+.write{
+    padding: 0 16px ;
+    color: white;
+
+}
+
+.write button{
+    border-radius: 4px;
+    font-weight: 400;
+    border: none;
+    background-color: #35C5F0;
+    color: white;
+    height: 44px;
+    width: 70px;
+}
+
+button span{
+    padding: 10px;
+}
+
+.main{
+    margin-top: 30px;
+
+}
+
+.main-container{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 60px;
+    margin: 0;
+    width: 800px;
+}
+
+
+
+.main-img1 img{
+    border-radius: 4px;
+    width: 1000px;
+    height: 400px;
+    
+}
+
+.main-img2{
+    margin: 0 0 0 10px;
+}
+
+.main-img2 img{
+    width: 200px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.menu-container{
+    padding: 0 110px 0 80px;
+    width: 800;
+}
+
+
+.menu{
+    display: flex;
+    margin: 30px 0 40px 0;
+    width: 630;
+}
+
+.icon{
+    flex:1; 
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+ 
+}
+
+.icon img{
+    margin-bottom: 10px;
+}
+
+.best-container{
+    margin: 0 100px;
+    margin-right: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.more button{
+    background-color: white;
+    color: #35C5F0;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.product-menu-container{
+    margin: 0 100px;
+}
+
+.product-menu{
+    margin: 10px 0;
+}
+
+.pro-menu-list ul{
+   padding: 0px;
+   margin: 10px;
+   list-style-type: none;
+
+}
+
+.pro-menu{
+    display: inline-block;
+    margin-right: 40px;
+    background-color:rgb(247, 249, 250);
+    border-radius: 16px;
+    padding: 5px;
+    color: rgb(47, 52, 56);
+    font-size: 14px;
+}
+
+#all{
+    background-color: #35C5F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.product-img-container{
+    margin: 0 100px;
+    display: flex;
+}
