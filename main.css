@@ -7,10 +7,8 @@
 header{
     position: relative;
     display: block;
-    margin: 20px;
+ 
 }
-
-
 
 .nav-container{
     border-bottom: 1px solid #EAEDEF;
@@ -19,33 +17,42 @@ header{
 }
 
 @media (min-width: 768px){
-.nav-container {
+.nav{
     height: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding: 0 60px;
 }
 }
 
-@media (min-width: 768px){
-.nav {
-    padding: 0 40px;
-}
-}
 
 .nav{
     display: flex;
     position: relative;
-    padding: 10px 40px;
+    align-items: center;
+}
+
+@media (min-width: 1024px){
+.main-rogo {
+    margin-right: 35px;
+    position: static;
+}
 }
 
 .main-rogo{
     font-size: 30px;
     padding: 4px;
-    margin: 0 20px 0 0 ;
     display: flex;
     align-items: center;
     font-weight: bold;
 }
+
+@media (min-width: 768px){
+.main-rogo a {
+    height: 30px;
+}
+}
+
 
 a{
     text-decoration: none;
@@ -54,18 +61,30 @@ a{
 
 .main-rogo a{
     color: black;
+    margin: -4px;
+    padding: 4px;
 
+
+}
+@media (min-width: 768px){
+.categori{
+    display: block;
+}
 }
 
 .categori{
     display: flex;
     align-items: center;
+    width: 500px;
+    height: 100px;
 }
 
 .categori-box{
-    padding: 21px 5px 15px 5px;
+    padding: 21px 5px 15px ;
     margin: 0 10px;
     font-family: 'Pretendard Variable',sans-serif;
+    font-weight: bold;
+    position: relative;
 
 }
 
@@ -76,7 +95,7 @@ a{
 
 .categori-link a{
     color: black;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -90,6 +109,22 @@ a{
     align-items: center;
     justify-content: flex-end;
     font-size: 14px
+}
+
+.serch-class{
+    display: flex;
+    align-items: center;
+    border: 1px solid #DADDE0;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+}
+
+.pic input{
+    border: 1px solid #DADDE0;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
 }
 
 .login a{
