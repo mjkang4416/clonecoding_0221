@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.all-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px 0px
+}
+
+.logo{
+    margin-bottom: 30px;
+}
+
+.log-form{
+    width: 300px;
+}
+
+.log-form div{
+    position: relative;
+}
+
+input{
+    width: 100%;
+    padding: 13px 15px 14px;
+    font-size: 15px;
+    line-height: 21px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+}
+
+.email{
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+.passwd{
+    border-radius: 0px 0px 4px 4px;
+}
+
+.bt{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 15px 10px;
+    line-height: 20px;
+    font-size: 17px;
+    background-color: #35c5f0;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+}
+
+.sec1{
+    width: 100%;
+    text-align: center;
+    color: #424242;
+}
+
+.sec1 a{
+    font-size: 15px;
+}
+
+#auth{
+    margin-left: 20px;
+}
+
+.sec2 div{
+    margin: 35px 0px 15px;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.sec2 a{
+    margin: 0px 10px;
+}
+
+.pro{
+    margin-top: 24px;
+    color: rgb(194, 200, 204);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.pro-sarch{
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgb(194, 200, 204);
+}
+
+.pro-sarch> button{
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px 0px 20px;
+    padding: 0px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: rgb(66, 66, 66);
+}
+
+.sc{
+    padding: 3px;
+    margin: -3px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.sc input{
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+}
+
+footer{
+    width: 100%;
+    color: rgb(117, 117, 117);
+    font-size: 10px;
+    line-height: 20px;
+    margin: -5px 0px 25px;
+    text-align: center;
+}
+
