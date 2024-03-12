@@ -2,12 +2,10 @@ let $mail = $("#email");
 let $pw = $(".pw");
 let $paswd = $(".pas-box");
 let $hi = $(".hi");
-let select = $(".all-check");
+let $select = $("#checkAll");
 $pw.on("click",Display);
 $paswd.on("click",passwd);
 $(".ha").on("click",ha);
-
-select.on("click",checkAll);
 
 function Display(){
     if($mail.val()==''){
@@ -49,11 +47,9 @@ function ha(){
 }
 }
 
-function checkAll(){
-    if($(".all-check").checked==true){ 
-          for(var i=0;i<3;i++) ("checkBox")[i].checked=true;   //name 을 사용하여 배열 형태로 담아 호출
-       }
-       if(document.getElementById("all-check").checked==false){
-          for(var i=0;i<3;i++) document.getElementsByName("checkBox")[i].checked=false;  
-       }
- }
+    $select.on('click',function(){ 
+        if($select.is(':checked')){
+            $('.check').prop('checked',true); }
+        else{
+            $('.check').prop('checked',false); } });
+
