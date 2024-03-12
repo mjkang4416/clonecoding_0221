@@ -1,0 +1,241 @@
+
+.body{
+    padding-top: 40px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+.main{
+    width: 100%;
+    padding: 60px 0;
+    
+}
+
+.main div{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.auth h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.auth{
+    width: 100%;
+}
+
+.auth1{
+    padding:0;
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.auth1 div{
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0;
+    color: #757575;
+}
+
+.auth1 ul{
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.icon{
+    margin: 0 10px;
+}
+
+
+.ml{
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    margin-top: 40px;
+}
+
+.form-box > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box input{
+    width: 138px;
+    height: 38px;
+    padding: 0 15px;
+    position: relative;
+}
+
+select{
+    width: 170px;
+    height: 43px;
+    padding: 0 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+ 
+}
+
+.pro span{
+position: absolute; 
+bottom: 180px;
+left: 410px;
+color: rgb(255, 119, 119);
+display: none;
+}
+
+.email{
+    padding-top: 10px;
+}
+
+.email button{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    background: #f7f8fa;
+    color: #c2c8cc;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+}
+.pw{
+    margin-bottom: 30px;
+}
+.pw div{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828C94;
+}
+
+.pw input{
+    width: 100%;
+    margin: 0;
+    padding: 8px 15px 9px;
+    border: 1px solid #dbdbdb;
+    color: #000;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.wrong{
+    padding-top: 10px;
+    display: none;
+}
+
+.ok-form{
+    padding: 18px;
+    border: 1px solid #EAEDEF;
+    box-sizing: border-box;
+
+}
+
+
+
+.check{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #DADDE0;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+}
+
+.all-text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.ex{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #828C94;
+}
+
+.la{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.extra{
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #009FCE;
+}
+
+.choice{
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #828C94;
+}
+
+.sub{
+    margin: 30px 0;
+    width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+    background-color: #35c5f0;
+    border-color: #35c5f0;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 11px 10px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: #424242;
+    font-size: 15px;
+}
+
+p a{
+    margin-left: 10px;
+    color: #424242;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+.main div {
+    width: 360px 
+}
+}
